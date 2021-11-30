@@ -17,7 +17,7 @@ echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 if (!$p1){
         echo "how to use .\script.ps1 ip"
 } else {
-    foreach ($ip in 1..20){
+    foreach ($ip in 1..249){
     
     try{$resp =  ping -n 1 "$p1.$ip" | Select-String "bytes=32"
     $resp.Line.split(' ')[2] -replace ":",""
