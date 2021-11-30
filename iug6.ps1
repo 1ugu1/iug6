@@ -1,7 +1,21 @@
 param($p1)
+
+echo "~~~~~~~~~WELCOME TO IUG6~~~~~~~~~~"
+echo "~                                ~"
+echo "~        Powered by: 1ugu1       ~"
+echo "~                                ~"
+echo "~ this tool will do a ping sweep ~"
+echo "~                                ~"
+echo "~                                ~"
+echo "~                                ~"
+echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+
+
+
+
+
 if (!$p1){
-    echo "Desec"
-    echo "exemplo de uso .\script.ps1 ip"
+        echo "how to use .\script.ps1 ip"
 } else {
     foreach ($ip in 1..20){
     
