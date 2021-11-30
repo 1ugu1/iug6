@@ -1,1 +1,1 @@
-# iug6
+# script for ping sweep
